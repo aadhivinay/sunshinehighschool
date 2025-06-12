@@ -93,9 +93,7 @@ const Facilities = () => {
               >
                 Schedule Visit
               </button>
-              <button className="border-2 border-orange-500 text-orange-500 px-6 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300 text-sm md:text-base">
-                Virtual Tour
-              </button>
+              
             </div>
           </div>
         </div>

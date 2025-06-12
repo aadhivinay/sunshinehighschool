@@ -24,7 +24,7 @@ const Faculty = () => {
       position: 'Principal & English Teacher',
       qualification: 'M.A English, B.Ed',
       experience: '19 years',
-      image: '/ravikanth.jpg',
+      image: '/prem.jpg',
       specialties: ['English Literature', 'Creative Writing']
     },
     {
@@ -168,9 +168,7 @@ const Faculty = () => {
             >
               Career Opportunities
             </button>
-            <button className="border-2 border-orange-500 text-orange-500 px-6 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition-all duration-300 text-sm md:text-base">
-              Teacher Development
-            </button>
+           
           </div>
         </div>
       </div>

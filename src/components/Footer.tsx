@@ -36,7 +36,7 @@ const Footer = () => {
               <SchoolLogo size="md" />
               <div>
                 <h3 className="text-lg md:text-xl font-bold">Sunshine High School</h3>
-                <p className="text-gray-400 text-xs md:text-sm">Nursery to Tenth Standard</p>
+                <p className="text-gray-400 text-xs md:text-sm">Knowledge is Divine...</p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-4 md:mb-6 text-sm md:text-base">
@@ -108,11 +108,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 md:h-5 md:w-5 text-green-400 flex-shrink-0" />
-                <p className="text-gray-400 text-sm md:text-base">9440831195</p>
+                <p className="text-gray-400 text-sm md:text-base">9440831185</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 md:h-5 md:w-5 text-blue-400 flex-shrink-0" />
-                <p className="text-gray-400 text-sm md:text-base">info@sunshinehighschool.edu</p>
+                <p className="text-gray-400 text-sm md:text-base">sunshinehighschool@gmail.com</p>
               </div>
             </div>
 
@@ -133,25 +133,34 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-gray-800 mt-8 md:mt-12 pt-6 md:pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-xs md:text-sm mb-4 md:mb-0">
-              © 2024 Sunshine High School. All rights reserved.
-            </p>
-            <div className="flex space-x-4 md:space-x-6 text-xs md:text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
-                Admissions Policy
-              </a>
-            </div>
-          </div>
-        </div>
+       {/* Bottom Section */}
+<div className="border-t border-gray-800 mt-8 md:mt-12 pt-6 md:pt-8">
+  <div className="flex flex-col md:flex-row justify-between items-center">
+    <p className="text-gray-400 text-xs md:text-sm mb-4 md:mb-0">
+      © 2024 Sunshine High School. Developed by{' '}
+      <a
+        href="https://aadhivinayportfolio.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-orange-400 hover:text-orange-500 hover:underline transition-colors duration-300 font-medium"
+      >
+        Aadhi Vinay
+      </a>
+    </p>
+    <div className="flex space-x-4 md:space-x-6 text-xs md:text-sm">
+      <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+        Privacy Policy
+      </a>
+      <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+        Terms of Service
+      </a>
+      <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+        Admissions Policy
+      </a>
+    </div>
+  </div>
+</div>
+
       </div>
     </footer>
   );

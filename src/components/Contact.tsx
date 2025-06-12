@@ -35,13 +35,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['9440831195', 'For Admissions & Inquiries'],
+      details: ['9440831185', 'For Admissions & Inquiries'],
       color: 'text-blue-500'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@sunshinehighschool.edu', 'admissions@sunshinehighschool.edu'],
+      details: ['sunshinehighschool@gmail.com', 'admissions@sunshinehighschool.edu'],
       color: 'text-green-500'
     },
     {
@@ -203,7 +203,7 @@ const Contact = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-12 md:mt-16 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-3xl p-6 md:p-8 lg:p-12 text-center text-white">
+        {/* <div className="mt-12 md:mt-16 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-3xl p-6 md:p-8 lg:p-12 text-center text-white">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">
             Ready to Join Sunshine High School?
           </h3>
@@ -219,7 +219,7 @@ const Contact = () => {
               Schedule Visit
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
